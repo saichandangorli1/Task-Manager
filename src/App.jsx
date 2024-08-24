@@ -226,7 +226,7 @@ function App() {
         </div>
       </div>
       <div className="flex md:hidden justify-center items-center h-screen">
-        work in progress switch to desktop mode
+        Mobile version is not supported yet, switch to desktop mode
         <span className="inline-block" ref={dotRef}>
           .
         </span>
