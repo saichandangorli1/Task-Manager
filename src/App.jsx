@@ -201,7 +201,7 @@ function App() {
   });
   return (
     <>
-      <div className=" hidden md:flex shadow-lg bg-white p-1 m-4 rounded-xl w-full overflow-hidden min-h-screen h-fit">
+      <div className=" hidden sm:flex shadow-lg bg-white p-1 m-4 rounded-xl w-fit overflow-hidden min-h-screen h-fit">
         <Menu
           onCategoryChange={handleCategoryChange}
           categories={categories}
@@ -225,11 +225,11 @@ function App() {
           )}
         </div>
       </div>
-      <div className="flex md:hidden justify-center items-center h-screen">
-        Mobile version is not supported yet, switch to desktop mode
-        <span className="inline-block" ref={dotRef}>
-          .
-        </span>
+      <div className="flex sm:hidden justify-center items-center h-screen px-6">
+        <p>
+          Mobile version is not supported yet, switch to desktop mode
+          <span ref={dotRef}>.</span>
+        </p>
       </div>
     </>
   );

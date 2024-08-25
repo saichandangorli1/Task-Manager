@@ -109,14 +109,14 @@ const Menu = ({
     >
       <div className="Menu mb-5 w-full h-fit flex items-center justify-between px-3">
         <h1 className="text-2xl font-bold">Menu</h1>
-        <div
+        {/* <div
           className="w-8 overflow-hidden h-8"
           onClick={() => {
             setFullWidth((preFullWidth) => !preFullWidth);
             console.log(fullWidth);
           }}
         >
-          <svg
+         <svg
             xmlns="http://www.w3.org/2000/svg"
             width={32}
             height={32}
@@ -132,8 +132,8 @@ const Menu = ({
             <path d="M4 6h16" />
             <path d="M7 12h13" />
             <path d="M10 18h10" />
-          </svg>
-        </div>
+          </svg> 
+        </div> */}
       </div>
       <h2 className="text-sm font-bold">Tasks</h2>
       <ul className="mt-4">

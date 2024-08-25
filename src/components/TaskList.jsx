@@ -154,7 +154,7 @@ const TaskList = ({ category, onSelectTask }) => {
           Add Subtask
         </button>
       </div>
-      <ul className="mt-4 bg-red-400  w-full relative">
+      <ul className="mt-4 w-full relative">
         {tasks.map((task, index) => (
           <li
             key={index}
